@@ -7,4 +7,4 @@ RUN wget -qO- http://aphyr.com/riemann/riemann-${RIEMANN_VERSION}.tar.bz2 | \
 	tar -xjC /usr/share
 
 EXPOSE 5555 5556
-CMD /usr/share/riemann-${RIEMANN_VERSION/bin/riemann
+CMD /usr/share/riemann-${RIEMANN_VERSION}/bin/riemann
